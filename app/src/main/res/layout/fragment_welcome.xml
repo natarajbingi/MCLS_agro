@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="modelPlayer"
+            type="com.slcm.slcmagroapp.views.pdf.PdfViewModel" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".views.WelcomeFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/player_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:controller_layout_id="@layout/custome_controller"
+            app:player_layout_id="@layout/exo_player_view"
+            app:use_controller="true">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center" />
+        </com.google.android.exoplayer2.ui.PlayerView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/skipHere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:gravity="start|center"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="25dp"
+            android:text="Skip >>"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </RelativeLayout>
+</layout>

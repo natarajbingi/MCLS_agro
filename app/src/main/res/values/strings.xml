@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">SLCM ARGO App</string>
+    <string name="a2500_compliIance_under_is_4925">a2500_compliance_under_is_4925.pdf</string>
+    <string name="a2500_compressive_strength_test_report">a2500_compressive_strength_test_report.pdf</string>
+    <string name="a2500_homogenity_test_report">a2500_homogenity_test_report.pdf</string>
+
+    <string name="a2800_compliIance_under_is_4925">a2800_compliance_under_is_4925.pdf</string>
+
+    <string name="a4000_compliIance_under_is_4925">a4000_compliance_under_is_4925.pdf</string>
+    <string name="a4000_compressive_strength_test_report">a4000_compressive_strength_test_report.pdf</string>
+    <string name="a4000_homogenity_test_report">a4000_homogenity_test_report.pdf</string>
+
+    <string name="a4300_compliIance_under_is_4925">a4300_compliance_under_is_4925.pdf</string>
+
+    <string name="a4500_compliIance_under_is_4925">a4500_compliance_under_is_4925.pdf</string>
+
+    <string name="a4800_compliIance_under_is_4925">a4800_compliance_under_is_4925.pdf</string>
+
+
+    <string-array name="customer_type_Array">
+        <item>Select</item>
+        <item>Individual/Contractor</item>
+        <item>Hirer</item>
+        <item>Corporate</item>
+    </string-array>
+    <string-array name="pjtCategoryArray">
+        <item>Select</item>
+        <item>Irrigation</item>
+        <item>Roads</item>
+        <item>Bridges</item>
+        <item>Urban Infrastructure</item>
+        <item>Railways</item>
+        <item>Building &amp; Factories</item>
+        <item>Power projects</item>
+        <item>Pre-cast</item>
+    </string-array>
+    <string-array name="subPjtCategoryArray">
+        <item>Select</item>
+        <item>City Roads</item>
+        <item>Storm Water Drain</item>
+        <item>Flyovers</item>
+        <item>Metros</item>
+        <item>Site Layouting/Drain Works</item>
+    </string-array>
+    <string-array name="customer_pref_argo_Array">
+        <item>Select</item>
+        <item>2000</item>
+        <item>2300</item>
+        <item>2800</item>
+        <item>4300</item>
+        <item>4800</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

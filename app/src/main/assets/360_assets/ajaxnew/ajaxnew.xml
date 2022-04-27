@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/133.png?t=1651080326" />
+    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="transparent" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="false" mouseHoverDrag="false" hideHotspotsOnLoad="true" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" />
+    <rotation firstImage="33" rotate="once" rotatePeriod="6" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="30" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
+  </settings>
+  <hotspots>
+    <hotspot id="engine" renderMode="1" indicatorImage="geo-short-blue.svg" activateOnClick="true" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/New Project (34).jpg?t=1651080326" imgWidth="512" txt="Engine Bonnet : Protects the engine and hydraulic pump" css="font-size:13px;color:#FFFFFF;width:100px;padding:15px 15px;background-color:rgba(29,32,51,1);" />
+    </hotspot>
+    <hotspot id="bucket" renderMode="1" indicatorImage="geo-short-blue.svg" activateOnClick="true" margin="0,0,0,0" align="center,center">
+      <spotinfo src="images/spots/New Project (37).jpg?t=1651080326" imgWidth="720" />
+    </hotspot>
+    <hotspot id="silencer" renderMode="0" indicatorImage="geo-short-blue.svg" activateOnClick="true">
+      <spotinfo txt="&lt;b&gt;Silencer&lt;/b&gt; : Pedestal type silencer placed ~7 feet above the ground" css="font-size:13px;color:#FFFFFF;width:200px;padding:15px 15px;border-radius:6px;background-color:rgba(44,45,72,1);" />
+    </hotspot>
+  </hotspots>
+  <images rows="1" highresWidth="1920" highresHeight="1079">
+    <image src="images/1.png?t=1651080326">
+      <hotspot source="engine" offsetX="224" offsetY="351" />
+      <hotspot source="bucket" offsetX="890" offsetY="77" />
+      <hotspot source="silencer" offsetX="450" offsetY="315" />
+      <highres src="images/highres/1.png?t=1651080326" />
+    </image>
+    <image src="images/5.png?t=1651080326">
+      <hotspot source="engine" offsetX="226" offsetY="347" />
+      <hotspot source="bucket" offsetX="876" offsetY="77" />
+      <hotspot source="silencer" offsetX="452" offsetY="311" />
+      <highres src="images/highres/5.png?t=1651080326" />
+    </image>
+    <image src="images/9.png?t=1651080326">
+      <hotspot source="engine" offsetX="237" offsetY="345" />
+      <hotspot source="bucket" offsetX="850" offsetY="74" />
+      <hotspot source="silencer" offsetX="463" offsetY="312" />
+      <highres src="images/highres/9.png?t=1651080326" />
+    </image>
+    <image src="images/13.png?t=1651080326">
+      <hotspot source="engine" offsetX="260" offsetY="341" />
+      <hotspot source="bucket" offsetX="818" offsetY="68" />
+      <hotspot source="silencer" offsetX="474" offsetY="308" />
+      <highres src="images/highres/13.png?t=1651080326" />
+    </image>
+    <image src="images/17.png?t=1651080326">
+      <hotspot source="engine" offsetX="286" offsetY="339" />
+      <hotspot source="bucket" offsetX="777" offsetY="67" />
+      <hotspot source="silencer" offsetX="494" offsetY="306" />
+      <highres src="images/highres/17.png?t=1651080326" />
+    </image>
+    <image src="images/21.png?t=1651080326">
+      <hotspot source="engine" offsetX="323" offsetY="336" />
+      <hotspot source="bucket" offsetX="729" offsetY="63" />
+      <highres src="images/highres/21.png?t=1651080326" />
+    </image>
+    <image src="images/25.png?t=1651080326">
+      <hotspot source="engine" offsetX="359" offsetY="331" />
+      <hotspot source="bucket" offsetX="680" offsetY="60" />
+      <highres src="images/highres/25.png?t=1651080326" />
+    </image>
+    <image src="images/29.png?t=1651080326">
+      <hotspot source="bucket" offsetX="629" offsetY="58" />
+      <highres src="images/highres/29.png?t=1651080326" />
+    </image>
+    <image src="images/33.png?t=1651080326">
+      <hotspot source="bucket" offsetX="569" offsetY="57" />
+      <highres src="images/highres/33.png?t=1651080326" />
+    </image>
+    <image src="images/37.png?t=1651080326">
+      <hotspot source="bucket" offsetX="509" offsetY="42" />
+      <highres src="images/highres/37.png?t=1651080326" />
+    </image>
+    <image src="images/43.png?t=1651080326">
+      <hotspot source="bucket" offsetX="402" offsetY="48" />
+      <highres src="images/highres/43.png?t=1651080326" />
+    </image>
+    <image src="images/45.png?t=1651080326">
+      <hotspot source="bucket" offsetX="371" offsetY="49" />
+      <highres src="images/highres/45.png?t=1651080326" />
+    </image>
+    <image src="images/51.png?t=1651080326">
+      <hotspot source="bucket" offsetX="297" offsetY="57" />
+      <highres src="images/highres/51.png?t=1651080326" />
+    </image>
+    <image src="images/53.png?t=1651080326">
+      <highres src="images/highres/53.png?t=1651080326" />
+    </image>
+    <image src="images/61.png?t=1651080326">
+      <hotspot source="silencer" offsetX="748" offsetY="306" />
+      <highres src="images/highres/61.png?t=1651080326" />
+    </image>
+    <image src="images/63.png?t=1651080326">
+      <hotspot source="silencer" offsetX="755" offsetY="306" />
+      <highres src="images/highres/63.png?t=1651080326" />
+    </image>
+    <image src="images/69.png?t=1651080326">
+      <hotspot source="bucket" offsetX="354" offsetY="75" />
+      <hotspot source="silencer" offsetX="778" offsetY="307" />
+      <highres src="images/highres/69.png?t=1651080326" />
+    </image>
+    <image src="images/71.png?t=1651080326">
+      <hotspot source="bucket" offsetX="358" offsetY="76" />
+      <hotspot source="silencer" offsetX="782" offsetY="306" />
+      <highres src="images/highres/71.png?t=1651080326" />
+    </image>
+    <image src="images/73.png?t=1651080326">
+      <hotspot source="bucket" offsetX="369" offsetY="84" />
+      <hotspot source="silencer" offsetX="787" offsetY="311" />
+      <highres src="images/highres/73.png?t=1651080326" />
+    </image>
+    <image src="images/81.png?t=1651080326">
+      <hotspot source="bucket" offsetX="409" offsetY="95" />
+      <highres src="images/highres/81.png?t=1651080326" />
+    </image>
+    <image src="images/83.png?t=1651080326">
+      <hotspot source="engine" offsetX="998" offsetY="344" />
+      <hotspot source="bucket" offsetX="427" offsetY="97" />
+      <highres src="images/highres/83.png?t=1651080326" />
+    </image>
+    <image src="images/89.png?t=1651080326">
+      <hotspot source="engine" offsetX="1007" offsetY="350" />
+      <hotspot source="bucket" offsetX="476" offsetY="100" />
+      <highres src="images/highres/89.png?t=1651080326" />
+    </image>
+    <image src="images/91.png?t=1651080326">
+      <hotspot source="engine" offsetX="1003" offsetY="355" />
+      <hotspot source="bucket" offsetX="490" offsetY="103" />
+      <highres src="images/highres/91.png?t=1651080326" />
+    </image>
+    <image src="images/93.png?t=1651080326">
+      <hotspot source="engine" offsetX="999" offsetY="357" />
+      <hotspot source="bucket" offsetX="508" offsetY="102" />
+      <highres src="images/highres/93.png?t=1651080326" />
+    </image>
+    <image src="images/99.png?t=1651080326">
+      <hotspot source="engine" offsetX="962" offsetY="358" />
+      <hotspot source="bucket" offsetX="566" offsetY="103" />
+      <highres src="images/highres/99.png?t=1651080326" />
+    </image>
+    <image src="images/101.png?t=1651080326">
+      <hotspot source="engine" offsetX="946" offsetY="364" />
+      <hotspot source="bucket" offsetX="587" offsetY="103" />
+      <highres src="images/highres/101.png?t=1651080326" />
+    </image>
+    <image src="images/105.png?t=1651080326">
+      <hotspot source="engine" offsetX="899" offsetY="368" />
+      <hotspot source="bucket" offsetX="622" offsetY="103" />
+      <highres src="images/highres/105.png?t=1651080326" />
+    </image>
+    <image src="images/109.png?t=1651080326">
+      <hotspot source="engine" offsetX="841" offsetY="369" />
+      <hotspot source="bucket" offsetX="665" offsetY="105" />
+      <hotspot source="silencer" offsetX="659" offsetY="318" />
+      <highres src="images/highres/109.png?t=1651080326" />
+    </image>
+    <image src="images/115.png?t=1651080326">
+      <hotspot source="engine" offsetX="736" offsetY="373" />
+      <hotspot source="bucket" offsetX="719" offsetY="101" />
+      <hotspot source="silencer" offsetX="612" offsetY="318" />
+      <highres src="images/highres/115.png?t=1651080326" />
+    </image>
+    <image src="images/117.png?t=1651080326">
+      <hotspot source="engine" offsetX="690" offsetY="373" />
+      <hotspot source="bucket" offsetX="738" offsetY="101" />
+      <hotspot source="silencer" offsetX="595" offsetY="317" />
+      <highres src="images/highres/117.png?t=1651080326" />
+    </image>
+    <image src="images/119.png?t=1651080326">
+      <hotspot source="engine" offsetX="655" offsetY="370" />
+      <hotspot source="bucket" offsetX="758" offsetY="100" />
+      <hotspot source="silencer" offsetX="581" offsetY="316" />
+      <highres src="images/highres/119.png?t=1651080326" />
+    </image>
+    <image src="images/125.png?t=1651080326">
+      <hotspot source="engine" offsetX="537" offsetY="376" />
+      <hotspot source="bucket" offsetX="804" offsetY="98" />
+      <hotspot source="silencer" offsetX="537" offsetY="314" />
+      <highres src="images/highres/125.png?t=1651080326" />
+    </image>
+    <image src="images/127.png?t=1651080326">
+      <hotspot source="engine" offsetX="493" offsetY="369" />
+      <hotspot source="bucket" offsetX="823" offsetY="94" />
+      <hotspot source="silencer" offsetX="523" offsetY="314" />
+      <highres src="images/highres/127.png?t=1651080326" />
+    </image>
+    <image src="images/133.png?t=1651080326">
+      <hotspot source="engine" offsetX="392" offsetY="364" />
+      <hotspot source="bucket" offsetX="859" offsetY="90" />
+      <hotspot source="silencer" offsetX="486" offsetY="309" />
+      <highres src="images/highres/133.png?t=1651080326" />
+    </image>
+    <image src="images/137.png?t=1651080326">
+      <hotspot source="engine" offsetX="330" offsetY="370" />
+      <hotspot source="bucket" offsetX="881" offsetY="89" />
+      <hotspot source="silencer" offsetX="474" offsetY="316" />
+      <highres src="images/highres/137.png?t=1651080326" />
+    </image>
+    <image src="images/141.png?t=1651080326">
+      <hotspot source="engine" offsetX="284" offsetY="366" />
+      <hotspot source="bucket" offsetX="892" offsetY="86" />
+      <hotspot source="silencer" offsetX="456" offsetY="314" />
+      <highres src="images/highres/141.png?t=1651080326" />
+    </image>
+    <image src="images/143.png?t=1651080326">
+      <hotspot source="engine" offsetX="273" offsetY="364" />
+      <hotspot source="bucket" offsetX="892" offsetY="82" />
+      <hotspot source="silencer" offsetX="456" offsetY="314" />
+      <highres src="images/highres/143.png?t=1651080326" />
+    </image>
+    <image src="images/149.png?t=1651080326">
+      <hotspot source="engine" offsetX="231" offsetY="354" />
+      <hotspot source="bucket" offsetX="894" offsetY="78" />
+      <hotspot source="silencer" offsetX="448" offsetY="312" />
+      <highres src="images/highres/149.png?t=1651080326" />
+    </image>
+  </images>
+</config>

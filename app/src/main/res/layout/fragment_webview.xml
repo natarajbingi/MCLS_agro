@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="webVModel"
+            type="com.slcm.slcmagroapp.views.webv.WebViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/statsGroup"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_margin="9dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/loading_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Loading"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/gear_box_motor_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Gear box &amp; motor"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/drum_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Drum"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/mixing_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Mixing"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/cabin_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Cabin"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="9dp"
+            android:background="@drawable/btn_menu_unselected"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/statsGroup"
+            app:layout_constraintStart_toStartOf="@+id/statsGroup"
+            app:layout_constraintTop_toBottomOf="@+id/statsGroup" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/statsGroup"
+            app:layout_constraintStart_toStartOf="@+id/statsGroup"
+            app:layout_constraintTop_toBottomOf="@+id/statsGroup" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

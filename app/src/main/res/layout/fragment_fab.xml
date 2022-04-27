@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="fabVModel"
+            type="com.slcm.slcmagroapp.views.fab.FabViewModel" />
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/statsGroupFab"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="18dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/mobility_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Mobility"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/easeOfOperation_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Ease of operation"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/concreting_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Concreting"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/placingConcrete_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Placing Concrete"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/safety_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Safety &amp; Mnt"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/statsGroupCS"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="18dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/apmc_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="APMC"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/argo2000inCCRoads_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Argo 2000 in CC Roads"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/pMay_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="PMAY"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/Precast_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Precast"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/Site_Layouting_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Site Layouting"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/URBAN_INFRASTRUCTURE_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="URBAN INFRASTRUCTURE"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/statsGroupCerti"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="18dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/argo_2500_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="ARGO 2500"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/argo_2800_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="ARGO 2800"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/argo_4000_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="ARGO 4000"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/argo_4300_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="ARGO 4300"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/argo_4500_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="ARGO 4500"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/argo_4800_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="ARGO 4800"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+        <RadioGroup
+            android:id="@+id/statsGroupCompeteStudy"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="18dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/ajax_vs_xcmg_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_btn_radio"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="Ajax vs XCMG"
+                android:textColor="@color/menu_selected"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/middle_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="25dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/img_middle_layout" />
+
+                <com.github.barteksc.pdfviewer.PDFView
+                    android:id="@+id/pdfv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="25dp" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="25dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/btn_bg_lightly"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/fab_item_layout" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
